@@ -1,0 +1,79 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+body {
+background-image: url('nikefon.avif');
+  background-color: #f5f5f5;
+  height: 100vh;           /* Висота екрану */
+  margin: 0;               /* Прибирає відступи на сторінці */
+text-align: center;
+}
+
+.registation {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  width: 390px;
+  height: 430px;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 30px;
+  display: flex;           /* Додаємо flex для внутрішнього вирівнювання */
+  flex-direction: column;  /* Розташовує елементи по вертикалі */
+  justify-content: center; /* Центрує елементи по вертикалі */
+  align-items: center;     /* Центрує елементи по горизонталі */
+margin: 0 auto;
+}
+.navbar {
+    background-image: url('nikefon.avif');
+    background-size: contain; /* Размер изображения адаптируется, чтобы поместиться */
+    background-repeat: no-repeat; /* Изображение не будет повторяться */
+    background-position: left; /* Центрирование изображения */
+    padding: 50px 0;
+    text-align: center;
+}
+.navbar {
+    background-color: #fdfdfd; /* Фон для навигационного меню */
+    padding: 15px 0;
+    position: relative; /* Устанавливаем относительное позиционирование для контейнера */
+}
+.navbar {
+    background-color: #fdfdfd; /* Фон для навигационного меню */
+    padding: 20px 0;
+    position: relative; /* Устанавливаем относительное позиционирование для контейнера */
+}
+
+.navbar-logo {
+    position: absolute; /* Абсолютное позиционирование логотипа */
+    top: 1px; /* Отступ сверху */
+    left: 1px; /* Отступ слева */
+    width: 50px; /* Ширина логотипа (можно изменить) */
+    height: left; /* Автоматическая высота для сохранения пропорций */
+}
+
+#logo-txt {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 100px;
+}
+
+#main-txt {
+  color: rgb(255, 255, 255);
+  padding-bottom: 10px;
+}
+
+#input-name, 
+#input-gmail, 
+#input-pass {
+  width: 300px;
+}
+
+#input-gmail {
+  margin-top: 33px;
+}
+
+#input-pass {
+  margin-top: 33px;
+}
+
+.button {
+  margin-top: 40px;
+}

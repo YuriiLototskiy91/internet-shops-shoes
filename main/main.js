@@ -19,7 +19,7 @@ mainBtn.addEventListener('click', () => {
     const data = { name, email, password };
 
     // Спливаюче повідомлення з вибором ролі
-    const confirmRedirect = confirm("Виберіть роль: Ок — Продавець, Скасувати — Покупець");
+    const confirmRedirect = confirm("Виберіть роль: Ок — покупець, Скасувати — продавець");
 
     if (confirmRedirect) {
         // Якщо користувач вибирає Ок (Продавець)
